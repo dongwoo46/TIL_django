@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <h1>FORM</h1><br>
+    <div>주문서를 작성해주세요</div><br>
+    <div>
+        <label for="name">이름</label>
+        <input type="text" name="name" id='name'><br>
+        <label for="date">날짜</label>
+        <input type="text" name="date" id="date" value="연도.    월.    일">
+    </div><br>
+    <div>
+        <h2>1. 샌드위치 선택</h2>
+        <label for="egg">에그마요</label>
+        <input type="checkbox" name="egg" id="egg">
+        <hr class= "border border-2">
+    </div>
+    <div>
+        <h2>2. 사이즈 선택</h2>
+        <input type="text">
+        <hr class="border border-dark border-2">
+    </div>
+    <div>
+        <h2>3. 빵</h2>
+        <div class="input-group mb-3">
+            <select class="form-select" id="inputGroupSelect02">
+              <option selected>빵골라라</option>
+              <option value="1">허니오트</option>
+              <option value="2">플랫브래드</option>
+              <option value="3">화이트</option>
+            </select>
+            <label class="input-group-text" for="inputGroupSelect02">Options</label>
+        </div>
+    </div>
+    <div>
+        <h2>4. 야채 소스</h2>
+        <div>
+            <input type="checkbox" id="tomato">
+            <label for="tomato">토마토</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cucumbar">
+            <label for="cucumbar">오이</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hala">
+            <label for="hala">할라피뇨</label>
+        </div>
+        <div>
+            <input type="checkbox" id="hot">
+            <label for="hot">핫칠리</label>
+        </div>
+        <div>
+            <input type="checkbox" id="bbq">
+            <label for="bbq">바베큐</label>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </div>
+    <a href="http://127.0.0.1:8000/logins/">로그인해라</a>
+    
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
