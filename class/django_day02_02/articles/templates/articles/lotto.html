@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>로또 번호</h1>
+    <p>{{number}}</p>
+
+    <h2>당첨번호</h2>
+    <p>{{lotto}}</p>
+
+    <h2>당첨 결과</h2>
+    <ul>
+        {% for key,value in win_rate.items %}
+            <li>{{key}}:{{value}}번</li>
+        {% endfor %}
+    </ul>
+{% endblock content %}        

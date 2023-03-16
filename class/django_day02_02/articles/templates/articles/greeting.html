@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Greeting Page</h1>
+        
+    <div>{{foods}}</div>
+    <p>리스트 인덱스로 바로 접근하기</p>
+    {% comment %} 인덱스는 0에서 시작 {% endcomment %}
+    <div>{{foods.2}}</div> 
+    <p> for문 이용해서 하나씩 foods 출력하기</p>
+    {% for food in foods  %}
+        <div class="text-primary">{{forloop.counter}}:{{food}}</div>
+    {% empty %}
+        <div class="text-danger">이 메세지는 리스트에 값이 없으면 보여져!</div>
+    {% endfor %}
+{% endblock content %}
+    
+

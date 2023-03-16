@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>getto</h1>
+    <p>{{article.id}} 번 글</p>
+    <h2 class="text-primary">{{article.title}}</h2>
+    <h2 class="text-primary">{{article.content}}</h2>
+    <a href="{% url 'articles:create' %}">create가기</a>
+{% endblock content %}
+

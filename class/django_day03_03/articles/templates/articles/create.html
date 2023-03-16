@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>CREATE</h1>
+    {% comment  %} 사용자 입력데이터는 form tag 내부에 작성해야한다! {% endcomment %}
+    {% comment  %}action ='' 위치가 빈값이면 현재 page에 요청이 보내짐{% endcomment %}
+    <form action="{% url 'articles:getto' %}">
+        <label for="title">제목 : </label>
+        <input type="text" id="title" name="title">
+        <br>
+        <label for="content">내용 : </label>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+        <button>제출</button>
+    </form>
+    
+{% endblock content %}
+
