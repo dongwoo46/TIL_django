@@ -17,7 +17,7 @@ urlpatterns = [
     path('delete/<int:pk>', views.delete, name='delete'),
 
     #글 수정하기
-    path('edit/<int:pk>',views.edit, name='edit'),
+    # path('edit/<int:pk>',views.edit, name='edit'),
     path('update/<int:pk>/',views.update, name='update'),
 ]
 

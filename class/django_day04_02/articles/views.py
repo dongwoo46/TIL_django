@@ -15,10 +15,6 @@ def index(request):
 
 
 
-
-
-
-
 # variable routing 에서 전달되는 정보를 반드시 인자로 받아야함(pk)
 
 def detail(request, pk):
@@ -52,36 +48,48 @@ def create(request):
         return render(request, 'articles/new.html')
 
 def delete(request, pk):
+    if request.method =='POST':
     # 삭제하기 위해서는 DB에서 대상을 찾아와야함
-    article = Article.objects.get(id=pk)
-    
-    # 2. delete() 이용해서 삭제하면 끝
-    article.delete()
-    # 3. index 
+        article = Article.objects.get(id=pk)
+
+        # 2. delete() 이용해서 삭제하면 끝
+        article.delete()
+        # 3. index 
     return redirect('articles:index')
 
 # create와 차이점 값을 보여줘야한다.
-def edit(request,pk):
-    # 수정할 데이터를 가져온다.
-    article = Article.objects.get(id=pk)
-    context = {
-        'article': article,
+# def edit(request,pk):
+#     # 수정할 데이터를 가져온다.
+    
+#     article = Article.objects.get(id=pk)
+#     context = {
+#         'article': article,
 
-    }
-    return render(request, 'articles/edit.html', context)
+#     }
+#     return render(request, 'articles/edit.html', context)
 
 
 #수정하기
 def update(request, pk):
     # 1. 수정할 글을 불러온다.
     article = Article.objects.get(id=pk)
+    if request.method == 'POST':
 
-    # 2. 사용자가 수정한 내용을 적용한다. 
-    title = request.POST.get('title')
-    content = request.POST.get('content')
 
-    article.title = title
-    article.content = content
-    article.save()
+        # 2. 사용자가 수정한 내용을 적용한다. 
+        title = request.POST.get('title')
+        content = request.POST.get('content')
 
-    return redirect('articles:detail', article.pk)
+        article.title = title
+        article.content = content
+        article.save()
+
+        return redirect('articles:detail', article.pk)
+    else:
+        
+        context = {
+            'article': article,
+
+        }
+        return render(request, 'articles/edit.html', context)
+

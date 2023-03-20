@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>글작성</h1>
+    <hr>
+    {% comment %} 어떤 url로 데이터를 보내는지는 action {% endcomment %}
+    <form action="{% url 'articles:create' %}" method="POST">
+        {% comment %} # method='POST' 있으면 무조건 csrf_token 넣기 {% endcomment %}
+        {% csrf_token %}
+        <label for="title">제목 : </label>
+        <input type="text" id="title" name="title"><br>
+
+        <label for="content">내용 : </label>
+        <input type="text" id="content" name="content"><br>
+
+        <input type="submit">
+    </form>
+{% endblock content %}

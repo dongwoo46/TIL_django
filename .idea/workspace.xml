@@ -1,7 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680f1a33-d4f8-40e5-b1a2-919f476d8d49" name="Default Changelist" comment="" />
+    <list default="true" id="680f1a33-d4f8-40e5-b1a2-919f476d8d49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/templates/articles/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/myapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/myapp/templates/myapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/myapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/mypjt/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/mypjt/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/mypjt/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/mypjt/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/articles/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/articles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/articles/templates/articles/greeting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/articles/templates/articles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/articles/templates/articles/lotto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/articles/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/articles/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/articles/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/config/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day02_02/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/templates/articles/catch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/templates/articles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/templates/articles/throw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/articles/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/mypjt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/mypjt/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/mypjt/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/mypjt/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/mypjt/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/mypjt/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_01/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/templates/articles/catch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/templates/articles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/templates/articles/throw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/articles/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/mypjt/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/mypjt/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/mypjt/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/mypjt/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/mypjt/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_02/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/templates/articles/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/templates/articles/getto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/templates/articles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/articles/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/config/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/config/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/config/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_day03_03/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/articles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/articles/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/articles/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/articles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/articles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/articles/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/config/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/config/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/django_pjt01/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/articles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/articles/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/articles/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/articles/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/articles/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/articles/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/hw02/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/templates/fruits/fruit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/fruits/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/project1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/project1/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/project1/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/project1/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/project1/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/project1/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_1-1/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/templates/calculators/calculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/calculators/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/project2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/project2/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/project2/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/project2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/project2/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/daily_practice_2-2/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/articles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/articles/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/articles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/articles/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/articles/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/articles/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/articles/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/articles/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/articles/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/articles/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/config/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/config/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/config/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/config/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_02/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_02/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/templates/my_app/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/templates/my_app/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/templates/my_app/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/templates/my_app/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/my_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/my_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/website_pjt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/website_pjt/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/website_pjt/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/website_pjt/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/website_pjt/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/website_pjt/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/website_pjt/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/website_pjt/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_03/website_pjt/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_03/website_pjt/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/templates/configs/logins.html" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/templates/configs/logins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/templates/configs/subway.html" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/templates/configs/subway.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/configs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/configs/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/subway/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/subway/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/subway/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/subway/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/subway/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/subway/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/subway/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/subway/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_day01_04_subaway/subway/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day01_04_subaway/subway/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_pjt01/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/articles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/articles/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/articles/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/articles/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/articles/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_pjt01/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/myapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/config/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_02/config/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_pjt01/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_pjt01/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/config/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_02/config/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_02/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_pjt01/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_02/articles/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/articles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/myapp/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/myapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/articles/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_02/articles/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/articles/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/mypjt/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/myapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/articles/templates/articles/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/articles/templates/articles/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/articles/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_01/mypjt/myapp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/hw02/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/class/django_day02_02/articles/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/hw02/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/hw02/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/hw02/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/hw02/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/hw02/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/hw02/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/hw02/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/hw02/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/daily_assignment_2-4/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/practice/daily_assignment_1-4/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
