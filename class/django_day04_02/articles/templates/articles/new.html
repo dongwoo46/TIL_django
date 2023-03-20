@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>글 생성하기</h1>
+{% comment %} <hr>
+액션으로 articles:create에 데이터를 저장 {% endcomment %}
+<form action="{% url 'articles:create' %}" method="POST">
+    {% comment %} 얘가 없으면 forbbiden error 발생 {% endcomment %}
+    {% csrf_token %}
+    <label for="title">title</label>
+    <input type="text" id="title" name="title">
+    <br>
+    <label for="content">content</label>
+    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+    <br>
+    <button>글 작성</button>
+</form>
+
+{% endblock content %}

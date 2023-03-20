@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Detail</h1>
+    <hr>
+    {% comment %} list로 각각 읽어오기 {% endcomment %} 
+    
+    <p>Title : {{article.title}}</p>
+    <p>Content : {{article.content}}</p>
+    <br>
+    <p>생성일자 : {{article.created_at}}</p>
+    <p>수정일자 : {{article.updated_at}}</p>
+    <hr>
+    <a href="{% url 'articles:edit' article.id %}">글 수정하기</a>
+
+    {% comment %} 삭제할 정보도 같이 전달해야함!!!! {% endcomment %}
+    <form action="{% url 'articles:delete' article.pk %}" method="POST">
+            {% csrf_token %}
+            <button>글 삭제하기</button>
+    </form>
+    <a href="{% url 'articles:index' %}">index로 가기</a>
+{% endblock content %}
+
+

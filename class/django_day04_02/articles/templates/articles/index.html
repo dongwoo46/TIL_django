@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>INDEX</h1>
+    <a href="{% url 'articles:create' %}">글 쓰러 가기</a>
+    <hr>
+    {% comment %} list로 각각 읽어오기 {% endcomment %} 
+    {% for article in article_list %}
+    {% comment %} url의 articles:detail만 넣으면 pk값이 전달이 안됨 따라서 'NoReverseMatch'가 뜨면
+    현재 요청 위치파악 index어딘가에 detail과 관련된 부분에서 error가 발생!!! {% endcomment %}
+    <p>Title : <a href="{% url 'articles:detail' article.pk %}"> {{article.title}}</a></p>
+    <hr>
+    {% endfor %}
+{% endblock content %}
+
+
