@@ -6,7 +6,7 @@ from .models import Article
 #     content = forms.CharField(widget=forms.Textarea)
 
 class ArticleForm(forms.ModelForm):
-
+    
     class Meta:
         model = Article
         fields = '__all__'
