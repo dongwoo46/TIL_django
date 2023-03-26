@@ -16,7 +16,7 @@
 
     <hr>
     <a href="{% url 'articles:update' article.pk %}">수정하기</a>
-    <form action="{% url 'articles:delete' article.pk %}" id="delete-form">
+    <form action="{% url 'articles:delete' article.pk %}" id="delete-form" method="POST">
       {% csrf_token %}
       <input type="submit" value="삭제하기" id="delete-btn" />
     </form><br>
